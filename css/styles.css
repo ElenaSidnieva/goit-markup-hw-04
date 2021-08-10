@@ -217,7 +217,7 @@ ul.site-navigation a {
 
 .hero {
     color: var(--primary-white-color);
-    padding: 200px 0;
+    padding: 200px;
     text-align: center;
 
     background-image: linear-gradient( rgba(47, 48, 58, 0.4),
@@ -229,6 +229,8 @@ ul.site-navigation a {
     width: 1600px;
 
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -630,12 +632,12 @@ a p {
     letter-spacing: 0.03em;
 }
 
-.work-list-item:hover {
+.work-list-button:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
-.work-list-item:focus {
+.work-list-button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
